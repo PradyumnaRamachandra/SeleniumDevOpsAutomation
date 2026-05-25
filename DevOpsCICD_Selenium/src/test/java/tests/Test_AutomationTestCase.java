@@ -16,7 +16,7 @@ public class Test_AutomationTestCase {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.manage().window().maximize();
-		driver.get("https://www.google.co.in");
+		driver.get("https://www.demowebshop.tricentis.com");
 		driver.close();
 		
 	}
