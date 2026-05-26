@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="tests.Test_RegisterTC"/>
+      <class name="tests.Test_subscribeTC"/>
       <class name="tests.Test_AutomationTestCase"/>
     </classes>
   </test> <!-- Test -->
